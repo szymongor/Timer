@@ -24,7 +24,7 @@
             android:ems="10"
             android:layout_marginLeft="11dp"
             android:layout_marginStart="11dp"
-            android:id="@+id/editText6"
+            android:id="@+id/editText2"
             android:layout_alignBaseline="@+id/textView2"
             android:layout_alignBottom="@+id/textView2"
             android:layout_toRightOf="@+id/textView2"
@@ -33,14 +33,15 @@
             android:text="0"
             android:textColor="@android:color/white"
             android:textAlignment="center"
-            tools:layout_centerHorizontal="false" />
+            tools:layout_centerHorizontal="false"
+            android:enabled="false" />
 
         <EditText
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText9"
+            android:id="@+id/editText3"
             android:layout_marginRight="11dp"
             android:layout_marginEnd="11dp"
             android:layout_alignBaseline="@+id/textView2"
@@ -51,7 +52,8 @@
             android:text="0"
             android:textColor="@android:color/white"
             android:textAlignment="center"
-            tools:layout_centerHorizontal="false" />
+            tools:layout_centerHorizontal="false"
+            android:enabled="false" />
 
         <EditText
             android:layout_width="50dp"
@@ -60,25 +62,26 @@
             android:ems="10"
             android:layout_marginLeft="12dp"
             android:layout_marginStart="12dp"
-            android:id="@+id/editText7"
-            android:layout_alignBaseline="@+id/editText6"
-            android:layout_alignBottom="@+id/editText6"
-            android:layout_toRightOf="@+id/editText6"
-            android:layout_toEndOf="@+id/editText6"
+            android:id="@+id/editText1"
+            android:layout_alignBaseline="@+id/editText2"
+            android:layout_alignBottom="@+id/editText2"
+            android:layout_toRightOf="@+id/editText2"
+            android:layout_toEndOf="@+id/editText2"
             android:background="@android:drawable/screen_background_dark"
             android:text="0"
             android:textColor="@android:color/white"
             android:textAlignment="center"
-            tools:layout_centerHorizontal="false" />
+            tools:layout_centerHorizontal="false"
+            android:enabled="false" />
 
         <Button
             android:text="+"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button4"
-            android:layout_above="@+id/editText6"
-            android:layout_alignLeft="@+id/editText7"
-            android:layout_alignStart="@+id/editText7"
+            android:id="@+id/addButton1"
+            android:layout_above="@+id/editText2"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignStart="@+id/editText1"
             tools:layout_centerHorizontal="false"
             android:elevation="0dp" />
 
@@ -86,40 +89,40 @@
             android:text="+"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button6"
-            android:layout_above="@+id/editText6"
-            android:layout_alignLeft="@+id/editText6"
-            android:layout_alignStart="@+id/editText6"
+            android:id="@+id/addButton2"
+            android:layout_above="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
             tools:layout_centerHorizontal="false" />
 
         <Button
             android:text="+"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button2"
-            android:layout_above="@+id/editText9"
-            android:layout_alignLeft="@+id/editText9"
-            android:layout_alignStart="@+id/editText9"
+            android:id="@+id/addButton3"
+            android:layout_above="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
             tools:layout_centerHorizontal="false" />
 
         <Button
             android:text="+"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button"
-            android:layout_above="@+id/editText8"
-            android:layout_alignLeft="@+id/editText8"
-            android:layout_alignStart="@+id/editText8"
+            android:id="@+id/addButton4"
+            android:layout_above="@+id/editText4"
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_alignStart="@+id/editText4"
             tools:layout_centerHorizontal="false" />
 
         <Button
             android:text="-"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button9"
-            android:layout_alignTop="@+id/button10"
-            android:layout_alignLeft="@+id/editText7"
-            android:layout_alignStart="@+id/editText7"
+            android:id="@+id/subButton1"
+            android:layout_alignTop="@+id/subButton2"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignStart="@+id/editText1"
             tools:layout_centerHorizontal="false" />
 
         <TextView
@@ -135,30 +138,30 @@
             android:text="-"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button8"
-            android:layout_below="@+id/editText9"
-            android:layout_alignLeft="@+id/editText9"
-            android:layout_alignStart="@+id/editText9"
+            android:id="@+id/subButton3"
+            android:layout_below="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
             tools:layout_centerHorizontal="false" />
 
         <Button
             android:text="-"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button10"
-            android:layout_below="@+id/editText6"
-            android:layout_alignLeft="@+id/editText6"
-            android:layout_alignStart="@+id/editText6"
+            android:id="@+id/subButton2"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
             tools:layout_centerHorizontal="false" />
 
         <Button
             android:text="-"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:id="@+id/button7"
-            android:layout_below="@+id/editText8"
-            android:layout_alignLeft="@+id/editText8"
-            android:layout_alignStart="@+id/editText8"
+            android:id="@+id/subButton4"
+            android:layout_below="@+id/editText4"
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_alignStart="@+id/editText4"
             tools:layout_centerHorizontal="false" />
 
         <EditText
@@ -166,7 +169,7 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText8"
+            android:id="@+id/editText4"
             android:background="@android:drawable/screen_background_dark"
             android:text="0"
             android:textColor="@android:color/white"
@@ -174,16 +177,17 @@
             tools:layout_centerHorizontal="false"
             android:layout_marginRight="12dp"
             android:layout_marginEnd="12dp"
-            android:layout_alignBaseline="@+id/editText9"
-            android:layout_alignBottom="@+id/editText9"
-            android:layout_toLeftOf="@+id/editText9"
-            android:layout_toStartOf="@+id/editText9" />
+            android:layout_alignBaseline="@+id/editText3"
+            android:layout_alignBottom="@+id/editText3"
+            android:layout_toLeftOf="@+id/editText3"
+            android:layout_toStartOf="@+id/editText3"
+            android:enabled="false" />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/button9"
+            android:layout_below="@+id/subButton1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp"
             android:gravity="bottom">
@@ -192,21 +196,21 @@
                 android:text="Start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button15"
+                android:id="@+id/startButton"
                 android:layout_weight="1" />
 
             <Button
                 android:text="Stop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button16"
+                android:id="@+id/stopButton"
                 android:layout_weight="1" />
 
             <Button
                 android:text="Reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button14"
+                android:id="@+id/resetButton"
                 android:layout_weight="1" />
         </LinearLayout>
 
