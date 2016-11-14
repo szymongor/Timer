@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-
+                ((EditText) findViewById(R.id.editText1)).setText("0", TextView.BufferType.EDITABLE);
             }
         };
         cdTimer.start();
