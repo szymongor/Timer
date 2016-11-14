@@ -79,7 +79,8 @@
             android:layout_above="@+id/editText6"
             android:layout_alignLeft="@+id/editText7"
             android:layout_alignStart="@+id/editText7"
-            tools:layout_centerHorizontal="false" />
+            tools:layout_centerHorizontal="false"
+            android:elevation="0dp" />
 
         <Button
             android:text="+"
